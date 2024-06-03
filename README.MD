@@ -2,7 +2,9 @@
 
 ## About
 
-This is MongoDB task to Design database for Zen class programme.
+This is MongoDB task to Design database for Zen class programme. <br />
+Access the [mongoplayground](https://mongoplayground.net/p/6Uy-E58t93T) to resolve the [Queries](#queries--back-to-contents).
+
 
 ## Table of contents
 
@@ -90,7 +92,7 @@ db.topics.aggregate([
 ```
 
 - Sample Output
-  ![sample output 1](/outputScreenshots\sample_output_1.png?raw=true "Sample output 1")
+  ![sample output 1](outputScreenshots\sample_output_1.png?raw=true "Sample output 1")
 
 ### Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
 
@@ -103,7 +105,7 @@ db.company_drives.find({
 ```
 
 - Sample Output
-  ![sample output 2](/outputScreenshots\sample_output_2.png?raw=true "Sample output 2")
+  ![sample output 2](outputScreenshots\sample_output_2.png?raw=true "Sample output 2")
 
 ### Find all the company drives and students who are appeared for the placement.
 
@@ -124,7 +126,7 @@ db.company_drives.aggregate([
 ```
 
 - Sample Output
-  ![sample output 3](/outputScreenshots\sample_output_3.png?raw=true "Sample output 3")
+  ![sample output 3](outputScreenshots\sample_output_3.png?raw=true "Sample output 3")
 
 ### Find the number of problems solved by the user in codekata.
 
@@ -149,7 +151,7 @@ db.codekata.aggregate([
 ```
 
 - Sample Output
-  ![sample output 4](/outputScreenshots\sample_output_4.png?raw=true "Sample output 4")
+  ![sample output 4](outputScreenshots\sample_output_4.png?raw=true "Sample output 4")
 
 ### Find all the mentors with who has the mentee's count more than 15.
 
@@ -160,7 +162,7 @@ db.mentors.find({ mentees_count: { $gt: 15 } });
 ```
 
 - Sample Output
-  ![sample output 5](/outputScreenshots\sample_output_5.png?raw=true "Sample output 5")
+  ![sample output 5](outputScreenshots\sample_output_5.png?raw=true "Sample output 5")
 
 ### Find the number of users who are absent and task is not submitted between 15 oct-2020 and 31-oct-2020.
 
@@ -213,4 +215,4 @@ db.attendance.aggregate([
 ```
 
 - Sample Output
-  ![sample output 6](/outputScreenshots\sample_output_6.png?raw=true "Sample output 6")
+  ![sample output 6](outputScreenshots\sample_output_6.png?raw=true "Sample output 6")

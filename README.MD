@@ -49,7 +49,7 @@ Access the [mongoplayground](https://mongoplayground.net/p/6Uy-E58t93T) to resol
 
 ### To switch databases or create database
 
-- Query
+- `Query`
 
 ```
 use <database>
@@ -57,7 +57,7 @@ use <database>
 
 ### Find all the topics and tasks which are thought in the month of October
 
-- Query
+- `Query`
 
 ```
 db.topics.aggregate([
@@ -91,12 +91,12 @@ db.topics.aggregate([
 ]);
 ```
 
-- Sample Output <br/><br/>
+- `Sample Output` <br/><br/>
   ![sample output 1](outputScreenshots/sample_output_1.png?raw=true "Sample output 1")
 
 ### Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
 
-- Query
+- `Query`
 
 ```
 db.company_drives.find({
@@ -104,12 +104,12 @@ db.company_drives.find({
 });
 ```
 
-- Sample Output <br/><br/>
-  ![sample output 2](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_2.png?raw=true "Sample output 2")
+- `Sample Output` <br/><br/>
+  ![sample output 2](outputScreenshots/sample_output_2.png?raw=true "Sample output 2")
 
 ### Find all the company drives and students who are appeared for the placement.
 
-- Query
+- `Query`
 
 ```
 db.company_drives.aggregate([
@@ -125,12 +125,12 @@ db.company_drives.aggregate([
 ]);
 ```
 
-- Sample Output <br/><br/>
-  ![sample output 3](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_3.png?raw=true "Sample output 3")
+- `Sample Output` <br/><br/>
+  ![sample output 3](outputScreenshots/sample_output_3.png?raw=true "Sample output 3")
 
 ### Find the number of problems solved by the user in codekata.
 
-- Query
+- `Query`
 
 ```
 db.codekata.aggregate([
@@ -150,23 +150,23 @@ db.codekata.aggregate([
 ]);
 ```
 
-- Sample Output <br/><br/>
-  ![sample output 4](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_4.png?raw=true "Sample output 4")
+- `Sample Output` <br/><br/>
+  ![sample output 4](outputScreenshots/sample_output_4.png?raw=true "Sample output 4")
 
 ### Find all the mentors with who has the mentee's count more than 15.
 
-- Query
+- `Query`
 
 ```
 db.mentors.find({ mentees_count: { $gt: 15 } });
 ```
 
-- Sample Output <br/><br/>
-  ![sample output 5](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_5.png?raw=true "Sample output 5")
+- `Sample Output` <br/><br/>
+  ![sample output 5](outputScreenshots/sample_output_5.png?raw=true "Sample output 5")
 
 ### Find the number of users who are absent and task is not submitted between 15 oct-2020 and 31-oct-2020.
 
-- Query
+- `Query`
 
 ```
 db.attendance.aggregate([
@@ -214,5 +214,5 @@ db.attendance.aggregate([
 
 ```
 
-- Sample Output <br/><br/>
-  ![sample output 6](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_6.png?raw=true "Sample output 6")
+- `Sample Output` <br/><br/>
+  ![sample output 6](outputScreenshots/sample_output_6.png?raw=true "Sample output 6")

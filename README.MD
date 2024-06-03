@@ -16,6 +16,7 @@ Access the [mongoplayground](https://mongoplayground.net/p/6Uy-E58t93T) to resol
 ### Zenclass programme database
 
 ![Zenclass programme database](dbScreenshots\zen_class_programme.png?raw=true "Zenclass programme database")
+![sample output 2](outputScreenshots\sample_output_2.png?raw=true "Sample output 2")
 
 ### Users Collection
 

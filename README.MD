@@ -92,7 +92,7 @@ db.topics.aggregate([
 ```
 
 - Sample Output <br/><br/>
-  ![sample output 1](https://raw.githubusercontent.com/Selvan-S/mongodb-design-database-task/main/outputScreenshots/sample_output_1.png?raw=true "Sample output 1")
+  ![sample output 1](outputScreenshots/sample_output_1.png?raw=true "Sample output 1")
 
 ### Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
 
